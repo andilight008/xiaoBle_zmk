@@ -13,11 +13,12 @@
 #
 ---
 include:
-  - board: seeeduino_xiao_ble
+  - board: xiao_ble
     shield: chipper_left
-  - board: seeeduino_xiao_ble
+    snippet: nrf52840-nosd
+  - board: xiao_ble
     shield: chipper_right
-#  - board: seeeduino_xiao_ble
-#    shield: settings_reset
-
+    snippet: nrf52840-nosd
+  - board: xiao_ble
+    shield: settings_reset
 
